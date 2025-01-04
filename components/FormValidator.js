@@ -9,6 +9,12 @@ class FormValidator {
     this._formEl = formEl;
   }
 
+  resetValidation() {
+    this._inputList.forEach((input) => {
+      this._hideInputError(input);
+    });
+  }
+
   _showInputError = (inputElement, errorMessage) => {
     const errorElement = this._formEl.querySelector(
       `#${inputElement.id}-error`
@@ -73,6 +79,7 @@ class FormValidator {
 
   enableValidation() {
     this._formEl.addEventListener("submit", (evt) => {
+      this.resetValidation();
       evt.preventDefault();
     });
     this._setEventListeners();

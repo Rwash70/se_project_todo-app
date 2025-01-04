@@ -1,19 +1,23 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+## Description
 
-test
+This project is a To-Do-List application featuring a pop-up form for adding tasks
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+The To-DO Popup is a task management tool designed to help users efficiently organize thier daily activities The application emphasizes clean code structure.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+JavaScript: Core functionality and logic implemented using modern JavaScript syntax.
+
+HTML: Markup language for structuring the to-do list interface.
+
+CSS: styling for layout, responsiveness, and user interface design.
 
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+- ADD LINK HERE https://rwash70.github.io/se_project_todo-app/

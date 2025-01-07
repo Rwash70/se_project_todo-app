@@ -27,6 +27,13 @@ class Popup {
         this.close();
       }
     });
+    this._popupElement
+      .querySelectorAll(".popup__close")
+      .forEach((closeIcon) => {
+        closeIcon.addEventListener("click", () => {
+          this.close();
+        });
+      });
   }
 }
 

@@ -19,11 +19,6 @@ class Todo {
     });
   }
 
-  _toggleCompletion = () => {
-    this._completed = !this._completed;
-    this._todoCheckboxEl.checked = this._completed;
-  };
-
   _generateCheckboxEl() {
     this._todoCheckboxEl = this._todoElement.querySelector(".todo__completed");
     this._todoLabel = this._todoElement.querySelector(".todo__label");
